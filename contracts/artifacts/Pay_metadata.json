@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "PayEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sendEtherToAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"sendEtherToAccount()": {
+					"notice": "Transfer from current account to receiver*"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Pay.sol": "Pay"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Pay.sol": {
+			"keccak256": "0x371a9596f966d176b8c826668c5df9ab805c968e33c58cce3b4d37159ee5d556",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://190ff1ea242ebb97698fc2b4519b24386bf87b67c58dd6b50cc73735b1f9465e",
+				"dweb:/ipfs/QmQQJHKh1pQ8fC8nfrq5mUHnoDjkB5gWr4cJcREVfbcCMG"
+			]
+		}
+	},
+	"version": 1
+}

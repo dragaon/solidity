@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.5.0+commit.1d4f565a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "moneyToAdd",
+						"type": "uint8"
+					}
+				],
+				"name": "addMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Overflow.sol": "Overflow"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Overflow.sol": {
+			"keccak256": "0x7294b08700c7418312413390cc9557e0363ae70a6f88132146b3f65e721387d3",
+			"urls": [
+				"bzzr://05ff3ad4e09e83b145f84f905eabe0119192a8e93d8e5a9c1a94320bf41db437"
+			]
+		}
+	},
+	"version": 1
+}
