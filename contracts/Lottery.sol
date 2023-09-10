@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
-
+ 
 pragma solidity >=0.5.0 <= 0.9.0;
 
-/**
+/** 
     Lottery contract with below business rules
     1. Manager is ultimate authority to select the winner through ramdomly 
     2. Participants should transter at least 1 there
